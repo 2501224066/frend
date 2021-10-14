@@ -1,0 +1,30 @@
+.App {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  margin: 0 auto;
+  height: 160px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.checkout {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout > .card {
+  width: 48%;
+  height: 40vh;
+  background: #fff;
+}
